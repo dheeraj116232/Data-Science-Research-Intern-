@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Python artifacts
+*.pyc
+
+# Node / Next.js artifacts
+node_modules/
+.next/
+out/
+build/
+coverage/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+
+# Embedded repo metadata kept only as a temporary local backup
+rag-chatbot/.git-history-backup/
