@@ -1,36 +1,33 @@
-# Exploratory-Data-Analysis-EDA-in-Banking-Using-Python
+# Banking Exploratory Data Analysis
 
-The purpose of this project is to master the exploratory data analysis (EDA) in banking with Pandas framework.
+This project explores banking marketing data with a standard exploratory data analysis workflow built in Python and Pandas.
 
-## Goals of the Project:
+## Goals
 
-1. Explore a banking dataset with Pandas framework.
-2. Build pivot tables.
-3. Visualize the dataset with various plot types.
+1. Explore a banking dataset with Pandas.
+2. Build pivot tables for business-oriented analysis.
+3. Visualize the dataset with multiple chart types.
 
-## Outline
-1. Materials and methods
-2. General part :   i) Libraries import  ii) Dataset exploration  iii) Pivot tables  iv) Visualization in Pandas
-3. Tasks
-  
-  
-## Materials and methods: 
-The data that we are going to use for this is a subset of an open source Bank Marketing Data Set from the UCI ML repository: https://archive.ics.uci.edu/ml/citation_policy.html.
+## Files
 
-This dataset is publicly available for research. The details are described in [Moro et al., 2014].
+- `banking_customer_eda.ipynb`: main analysis notebook
+- `Dataset/`: supporting CSV and metadata files
 
-During the work, the task of preliminary analysis of a positive response (term deposit) to direct calls from a bank is to solve. In essence, the task is a matter of bank scoring, i.e. according to the characteristics of a client (potential client), their behavior is predicted (loan default, a wish to make a deposit, etc.).
+## Materials and Methods
 
-In this project, we will try to give answers to a set of questions that may be relevant when analyzing banking data:
+The data used here is a subset of the open-source Bank Marketing dataset from the UCI Machine Learning Repository. The project focuses on understanding customer response behavior in a banking campaign setting.
 
-What is the share of clients attracted in our source data?
-What are the mean values ​​of numerical features among the attracted clients?
-What is the average call duration for the attracted clients?
-What is the average age among the attracted and unmarried clients?
-What is the average age and call duration for different types of client employment?
-In addition, we will make a visual analysis in order to plan marketing banking campaigns more effectively.
+## Questions Explored
 
-## USED LIBRARIES:
-1. NUMPY
-2. PANDAS
-3. MATPLOTLIB
+- What share of clients responded positively in the dataset?
+- What are the average values of numeric features among those clients?
+- What is the average call duration for attracted clients?
+- What is the average age among attracted and unmarried clients?
+- How do age and call duration vary across employment groups?
+- What patterns appear through visual analysis that may help marketing decisions?
+
+## Libraries Used
+
+1. NumPy
+2. Pandas
+3. Matplotlib
